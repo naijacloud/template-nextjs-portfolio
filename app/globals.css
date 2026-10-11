@@ -39,3 +39,10 @@ h2 { margin: 0 0 28px; font-size: 24px; letter-spacing: -0.01em; }
 .body .tags { margin: 24px 0 32px; }
 footer { padding-top: 32px; border-top: 1px solid var(--line); color: var(--subtle); font-size: 14px; }
 @media (max-width: 860px) { .grid { grid-template-columns: 1fr; } .about { grid-template-columns: 1fr; } h1 { font-size: 38px; } .hero { padding: 72px 0 56px; } }
+
+/* "Deployed on Naijacloud". Remove it, or keep it as a thank-you. */
+.nc-badge { display: inline-flex; align-items: center; gap: 8px; color: var(--subtle); text-decoration: none; font-size: 13px; border: 1px solid var(--line); border-radius: 999px; padding: 4px 12px 4px 5px; }
+.nc-badge:hover { color: var(--ink); border-color: var(--green); }
+.nc-badge b { color: var(--ink); font-weight: 600; }
+.nc-mark { display: inline-grid; place-items: center; width: 20px; height: 20px; border-radius: 7px; background: var(--green); color: #fff; font: 400 9px/1 Anton, Impact, "Arial Narrow", sans-serif; letter-spacing: .04em; }
+.site-foot { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; }

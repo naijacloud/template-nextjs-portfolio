@@ -30,8 +30,11 @@ export default function RootLayout({ children }: { children: ReactNode }) {
             </nav>
           </header>
           {children}
-          <footer>
-            © {new Date().getFullYear()} {site.name}
+          <footer className="site-foot">
+            <span>
+              © {new Date().getFullYear()} {site.name}
+            </span>
+            <a className="nc-badge" href="https://naijacloud.com/?ref=template-nextjs-portfolio"><span className="nc-mark" aria-hidden="true">NC</span><span>Deployed on <b>Naijacloud</b></span></a>
           </footer>
         </div>
       </body>
